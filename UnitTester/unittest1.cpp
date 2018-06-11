@@ -1,3 +1,10 @@
+//I affirm that all code given below was written solely by me, Jesse Domingo, and that any help I received adhered to the rules stated for this exam.
+/// 
+//Written by Jesse Domingo 
+// Teacher Pete Tucker 
+// CS273 (Summer) 
+// 6/11/2018
+///
 #include "stdafx.h"
 #include "CppUnitTest.h"
 #include "Sedan.h"
