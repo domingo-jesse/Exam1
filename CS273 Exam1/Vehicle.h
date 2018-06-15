@@ -14,6 +14,7 @@ class Vehicle
 {
 
 protected:
+	//PT -- it's good to be consistent in your naming. Either prefix all member variables with _, or don't
 	int newrad;
 	int Number_of_Wheels;
 	string _color;
