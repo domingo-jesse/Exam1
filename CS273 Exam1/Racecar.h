@@ -37,8 +37,16 @@ public:
 		if (isRacecar() == true) {
 			cout << "I am a " << _color << " race car that can race " << _topspeed << "mph. Vroom!";
 
+			//PT -- probably better to do this in the constructor -- even better in Vehicle().
+			//      the problem with putting it here is that each time Description is called, you'll
+			//      add four wheels. So on the second call, you'll have an eight-wheel racecar.
+			//  -5
 			for (int i = 0; i < Number_of_Wheels; i++)
 				wheels.push_back(Wheel(newrad));
+			
+			//PT -- This should be the string that is returned. Don't cout the result, return the string
+			//      containing this content.
+			//  -2
 			cout << "I have " << wheels.size() << " wheels with each wheel having a radius of " << Wheel(newrad).getrad() << "mm" << endl;
 
 
